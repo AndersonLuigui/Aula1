@@ -23,6 +23,9 @@
     echo 10%2;
     echo '<br>';
     echo 2**3;
+    echo '<br>';
+
+    echo (2+3)*4;
 
    
    ?>
