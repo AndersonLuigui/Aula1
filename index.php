@@ -6,9 +6,17 @@
     <title>Aula 1</title>
 </head>
 <body>
-   <?php    
+   <?php  
 
-   echo "<h2>Hello World</h2>";
+   $numero = "12" + "12";
+   echo "<h1>$numero</h1>";
+   
+   define('DESCONTO',10);
+   echo '<br>'.DESCONTO;
+
+    const TAXA = 5;
+    echo '<br>'.TAXA;
+   
    
    ?>
     
