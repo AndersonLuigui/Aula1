@@ -6,28 +6,18 @@
     <title>Aula 1</title>
 </head>
 <body>
-   <?php  
+   <?php
+        function CadastroCliente($nome, $idade, $endereco){
+            return $array = [$nome, $idade, $endereco];
+        }
 
-    echo 5 + 5;
-    echo '<br>';
-    var_dump(2+3);
-    echo '<br>';
-    var_dump(1+1.5);
-    echo '<br>';
-    echo 10-2;
-    echo '<br>';
-    echo 10*2;
-    echo '<br>';
-    echo 10/2;
-    echo '<br>';
-    echo 10%2;
-    echo '<br>';
-    echo 2**3;
-    echo '<br>';
+        function imprimeCadastro($array){
+            print_r($array);
+        }
 
-    echo (2+3)*4;
+        $cliente = CadastroCliente("Anderson", 26, "Gama-DF");
+        imprimeCadastro($cliente);
 
-   
    ?>
     
 </body>
